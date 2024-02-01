@@ -187,7 +187,7 @@ console.log(isSame);
 
 console.log(true == 1); //true
 console.log(null == undefined); // true
-true boolean değeri 1 sayısı ile eşit kabul edilir, null ve undefined ise birbirine eşit kabul edilir.
+//true boolean değeri 1 sayısı ile eşit kabul edilir, null ve undefined ise birbirine eşit kabul edilir.
 console.log(true === 1); // false
 console.log(null === undefined); // false
 
@@ -213,7 +213,7 @@ console.log("a" > "A");// true
 console.log(15 >= 15); //true
 console.log(15 <= 15); // true
 console.log(15 >= 16); // false
-console.log(15 >== "15");// error verir. Çünkü bu şekilde karşılaştırma operatörü bulunmuyor.
+//console.log(15 >== "15");// error verir. Çünkü bu şekilde karşılaştırma operatörü bulunmuyor.
 console.log(15 >= "15"); // true
 console.log("14" <= "15"); // true
 
@@ -271,5 +271,5 @@ console.log("Hello World!")
 //1. ! (not)
 //2. && (and)
 //3. || (or)
-const karşilaştırma = ("merhaba" && "dünya") || false || (28 && 67 && !0)
-console.log(karşilaştırma) // dünya
+const karsilastirma = ("merhaba" && "dünya") || false || (28 && 67 && !0)
+console.log(karsilastirma) // dünya
