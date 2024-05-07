@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    // $(document).ready(function(){
+    //     $("#p1").mouseenter(function(){
+    //         alert("You entered p1");
+    //     });
+    // });
+    // $(document).ready(function(){
+    //     $("p").dblclick(function(){
+    //         $(this).hide();
+    //     });
+    // });
+    // $(document).ready(function(){
+        // $("button").click(function(){
+            //$("p").hide(); // Tiklandiginda paragraf gizlemek icin
+            //$("#test").hide(); // secilen id yi gizlemek icin
+            //$(".test1").hide(); // secilen class i gizlemek icin
+        // $("ul li:first").hide(); // listenin ilk ogesini secer ve gizler
+        // });
+    // });
+    $(document).ready(function(){
+        $("input").focus(function(){
+            $(this).css("background-color","green");
+        });
+        $("input").blur(function(){
+            $(this).css("background-color", "yellow");
+        });
+
+    });
+</script>
+</head>
+<body>
+    <!-- JQUERY SELECTORS -->
+    <!-- <h2 id="test">This is a heading</h2>
+    <h3 class="test1">This is a 3.heading</h3>
+    <p>This is a paragraph</p>
+    <p>This is a another paragraph</p>
+
+    <p>List 1:</p>
+    <ul>
+      <li>Coffee</li>
+      <li>Milk</li>
+      <li>Tea</li>
+    </ul>
+    
+    <p>List 2:</p>
+    <ul>
+      <li>Coffee</li>
+      <li>Milk</li>
+      <li>Tea</li>
+    </ul>
+    <button>Click me</button> -->
+    <!-- JQUERY EVENTS -->
+    <!-- <P>If you double-click on me, I will disappear.</P>
+    <p>Click me away!</p>
+    <p>Click me too!</p> -->
+    <!-- MOUSEENTER -->
+    <!-- <P id="p1">Enter this paragraph.</P> -->
+<!-- FOCUS and BLUR-->
+Name : <input type="text" name="fullname">
+<br>
+<br>
+E mail : <input type="text" name="email">
+
+</body>
+</html>
