@@ -55,7 +55,7 @@ const compute = (n1, n2, operator) => {
       result = div(n1, n2)
       break
     default:
-      alert("Incorrect Operator")
+      //alert("Incorrect Operator")
       result = ""
       break
   }
@@ -91,5 +91,5 @@ const fakto = (n) => {
   const number = +prompt("n:")
   
   number < 0
-    ? alert("Number should be bigger than zero")
+    //? alert("Number should be bigger than zero")
     : console.log(`Fakto(${number})= ${fakto(number)}`)
