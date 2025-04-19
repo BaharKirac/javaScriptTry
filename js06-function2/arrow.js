@@ -1,6 +1,6 @@
 /*syntax
 const topla = (a,b) => a+b;
-alert(topla(1,2)); 3
+alert(topla(1,2)); 
 
 
 //* ORNEK: Doğum tarihini parametre olarak alan ve ana
@@ -91,5 +91,5 @@ const fakto = (n) => {
   const number = +prompt("n:")
   
   number < 0
-    //? alert("Number should be bigger than zero")
+    ? alert("Number should be bigger than zero")
     : console.log(`Fakto(${number})= ${fakto(number)}`)
